@@ -3,8 +3,7 @@
 int main() {
     char str[100];
 
-    // Taking input from the user
-    printf("Enter a string: ");
+    // Taking input from the us
     fgets(str, sizeof(str), stdin);  // Using fgets to allow spaces in the input
 
     // Printing the entered string
